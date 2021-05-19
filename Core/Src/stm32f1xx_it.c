@@ -211,7 +211,7 @@ void TIM6_IRQHandler(void)
   /* USER CODE END TIM6_IRQn 0 */
   HAL_TIM_IRQHandler(&htim6);
   /* USER CODE BEGIN TIM6_IRQn 1 */
-  WiegandProcess();
+  WiegandProcessTx();
   /* USER CODE END TIM6_IRQn 1 */
 }
 
